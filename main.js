@@ -17,8 +17,7 @@ let noTasks = document.getElementById('noTasks');
   {
     alert("This field cannot be empty!");
   }
-  else
-  {
+  else {
     noTasks.innerHTML = ' ';
     let ul = document.getElementById('myList');
     let li = document.createElement('li');
