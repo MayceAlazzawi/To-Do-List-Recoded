@@ -13,8 +13,7 @@ let noTasks = document.getElementById('noTasks');
   addTodoBtn.onclick = function addTask() { 
   let inputValue = document.getElementById("inputValue").value; 
   let deadlineDate = document.getElementById("deadlineDate").value; 
-  if (inputValue === '') 
-  {
+  if (inputValue === '') {
     alert("This field cannot be empty!");
   }
   else {
