@@ -1,6 +1,5 @@
 let inputBox = document.getElementById("inputValue");
 let noTasks = document.getElementById('noTasks');
-let todoItems = [];
 
 // Getting today's date
   n =  new Date();
