@@ -1,0 +1,24 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+span.date-element {
+  padding: 25px;
+}
+
+.li {
+padding: 8px;
+}
+
+#noTasks {
+  text-align: center;
+}
+#currentDate {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+#inputValue {
+  width: 100%;
+  border: none;
+}
