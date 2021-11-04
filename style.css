@@ -39,7 +39,7 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-.newEl.checked {
+.new-El.checked {
   background: rgb(226, 181, 114);
   color: #fff;
   text-decoration: line-through;
@@ -54,7 +54,7 @@ ul li {
   transition: 0.2s;
 }
 
-.newEl.checked::before {
+.new-El.checked::before {
   content: '';
   position: absolute;
   border-color: greenyellow;
