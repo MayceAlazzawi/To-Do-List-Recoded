@@ -66,3 +66,14 @@ ul li {
   height: 15px;
   width: 7px;
 }
+
+.delete {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+.delete:hover {
+  background-color: grey;
+}
