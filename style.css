@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 75%;
+  padding: 70px 10px 0 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.Today {
+  margin-right: 2px;
+}
 span.date-element {
   padding: 25px;
 }
@@ -6,16 +20,8 @@ ul {
   list-style: none;
 }
 
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
 span.date-element {
   padding: 25px;
-}
-
-li{
-padding: 8px;
 }
 
 #noTasks {
@@ -40,18 +46,21 @@ ul li.checked {
 }
 
 .new-El.checked {
-  background: rgb(226, 181, 114);
-  color: #fff;
+  color: rgb(2, 2, 2);
   text-decoration: line-through;
 }
 
-ul li {
+.new-El {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: baseline;
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: rgb(255, 244, 246);
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.2s;
+  margin: 0;
 }
 
 .new-El.checked::before {
@@ -60,7 +69,7 @@ ul li {
   border-color: greenyellow;
   border-style: solid;
   border-width: 0 2px 2px 0;
-  top: 10px;
+  top: 40px;
   left: 16px;
   transform: rotate(45deg);
   height: 15px;

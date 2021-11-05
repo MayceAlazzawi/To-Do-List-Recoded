@@ -38,7 +38,7 @@ function addTodo(item, item1, item2) {
 }
 
 function addTask() {
-  if (inputValue === "") {
+  if ( inputBox.value === "") {
     alert("This field cannot be empty!");
   } else {
     noTasks.textContent = " ";
