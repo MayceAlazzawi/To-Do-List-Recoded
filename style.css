@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+span.date-element {
+  padding: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
 
 .container {
@@ -62,6 +72,18 @@ ul li.checked {
   font-size: 16px;
   transition: 0.2s;
   margin: 0;
+  background: rgb(226, 181, 114);
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: rgb(255, 244, 246);
+  font-size: 18px;
+  transition: 0.2s;
 }
 
 .new-El.checked::before {
@@ -71,11 +93,12 @@ ul li.checked {
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 40px;
+  top: 10px;
   left: 16px;
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
-}
+  }
 
 .delete {
   padding: 10px;
@@ -87,3 +110,6 @@ ul li.checked {
 .delete:hover {
   background-color: grey;
 }
+
+
+
