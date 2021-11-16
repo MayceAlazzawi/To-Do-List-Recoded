@@ -53,7 +53,7 @@ function addTask() {
     document.getElementById("inputValue").value = "";
   }
 }
-let noTasks = document.getElementById('noTasks');
+let noTasks = document.getElementById("noTasks");
 
 //current date
 let monthNames = [
@@ -90,7 +90,7 @@ function addTodo(item, item1, item2) {
 }
 
 function addTask() {
-  if ( inputBox.value === "") {
+  if (inputBox.value === "") {
     alert("This field cannot be empty!");
   } else {
     noTasks.textContent = " ";
@@ -133,4 +133,3 @@ document.addEventListener("click", function (ev) {
     ev.target.parentNode.remove();
   }
 });
-}
